@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya's Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins]">
+    <!-- Header Section -->
+    <div class="bg-gradient-to-b from-white to-red-100">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <div class="w-32">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <nav class="flex space-x-6">
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Products</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-gray-900">Contact</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Account</a>
+                </nav>
+                <div class="w-8">
+                    <img src="images/cart.png" alt="Cart">
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 px-4">
+                    <h1 class="text-5xl font-bold leading-snug text-gray-800">Give Your Workout <br>A New Style</h1>
+                    <p class="mt-4 text-gray-600">There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.</p>
+                    <a href="#" class="mt-6 inline-block bg-red-500 text-white py-2 px-6 rounded-full hover:bg-red-600">Explore Now &rarr;</a>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                    <img src="images/image1.png" alt="Workout Style">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products Section -->
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-center text-3xl font-semibold mb-6">Featured Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="text-center">
+                <img src="images/product-1.jpg" alt="Shirt" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Shirt</h4>
+                <p class="text-gray-500">$50.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-2.jpg" alt="Sneakers" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Sneakers</h4>
+                <p class="text-gray-500">$70.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-3.jpg" alt="Trousers" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Trousers</h4>
+                <p class="text-gray-500">$40.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-4.jpg" alt="Puma Tshirt" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Puma Tshirt</h4>
+                <p class="text-gray-500">$60.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Best Sellers Section -->
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-center text-3xl font-semibold mb-6">Our Best Sellers</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="text-center">
+                <img src="images/product-5.jpg" alt="Leather Jacket" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Leather Jacket</h4>
+                <p class="text-gray-500">$120.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-6.jpg" alt="Sports Watch" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Sports Watch</h4>
+                <p class="text-gray-500">$150.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-7.jpg" alt="Backpack" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Backpack</h4>
+                <p class="text-gray-500">$80.00</p>
+            </div>
+            <div class="text-center">
+                <img src="images/product-8.jpg" alt="Running Shoes" class="mx-auto w-40">
+                <h4 class="mt-4 text-lg font-medium">Running Shoes</h4>
+                <p class="text-gray-500">$100.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Limited Time Offer Section -->
+    <div class="container mx-auto px-4 py-8 text-center">
+        <h2 class="text-3xl font-semibold mb-4">Limited Time Offer</h2>
+        <p class="text-gray-600">Don't miss out on these exclusive deals! Sale ends in:</p>
+        <div id="countdown" class="text-2xl font-bold text-red-500 my-4"></div>
+        <a href="#" class="bg-red-500 text-white py-2 px-6 rounded-full hover:bg-red-600">Shop the Sale &rarr;</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h4 class="text-white font-medium mb-4">About</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">About Us</a></li>
+                        <li><a href="#" class="hover:underline">Delivery Information</a></li>
+                        <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-4">Get Help</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <li><a href="#" class="hover:underline">Shipping</a></li>
+                        <li><a href="#" class="hover:underline">Returns</a></li>
+                        <li><a href="#" class="hover:underline">Order Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-4">Follow Us</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Facebook</a></li>
+                        <li><a href="#" class="hover:underline">Twitter</a></li>
+                        <li><a href="#" class="hover:underline">Instagram</a></li>
+                        <li><a href="#" class="hover:underline">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div
